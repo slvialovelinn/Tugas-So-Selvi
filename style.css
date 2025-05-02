@@ -20,7 +20,7 @@
 }
 
 body {
-  background: linear-gradient(45deg, var(--skyblue), var(--light-purple));
+  background: linear-gradient(45deg, var(--dark-magenta), var(--dark-blue));
 }
 
 .container {
@@ -203,7 +203,7 @@ body {
 }
 .work .icon img {
   width: 100px;
-  height: 100px;
+  height: 90%;
   object-fit: cover;
   border-radius: 8px;
   margin-right: 20px;
