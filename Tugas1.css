@@ -11,7 +11,7 @@ body {
 
 body {
   font-family: "Poppins", Arial, sans-serif;
-  background: white;
+  background: rgb(84, 84, 234);
   animation: fadeIn 1.5s ease-in-out;
   padding: 0 10px; /* Ruang kiri dan kanan */
   display: flex;
@@ -22,8 +22,8 @@ body {
 h1 {
   text-align: center;
   margin-bottom: 40px;
-  color: rgb(30, 19, 0);
-  text-shadow: 0 0 10px rgb(60, 37, 1);
+  color: rgb(189, 112, 192);
+  text-shadow: 0 0 10px rgb(47, 69, 141);
   font-size: 24px;
 }
 
@@ -33,7 +33,7 @@ h1 {
   background-color: rgb(248, 240, 230);
   padding: 15px;
   border-radius: 20px;
-  box-shadow: 0 4px 8px rgba(151, 91, 91, 0.1);
+  box-shadow: 0 4px 8px rgba(82, 113, 158, 0.1);
   animation: fadeIn 2s ease-in-out;
   width: 60%;
   max-width: 60%;
@@ -44,9 +44,9 @@ h1 {
   font-weight: bold;
   margin-bottom: 15px;
   font-size: 22px;
-  color: #333;
+  color: #9f7272;
   animation: fadeIn 2.5s ease-in-out;
-  text-shadow: 0 0 10px rgb(109, 67, 0);
+  text-shadow: 0 0 10px rgb(177, 96, 177);
 }
 
 /* Konten yang berisi gambar dan deskripsi */
@@ -71,7 +71,7 @@ h1 {
 .konten-gambar .deskripsi {
   width: 48%;
   font-size: 16px;
-  color: #555;
+  color: #f9cccc;
   animation: fadeIn 1.5s ease-in-out 0.5s;
   text-align: justify;
   margin-top: 10px;
