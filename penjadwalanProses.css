@@ -1,0 +1,55 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+  background: rgb(106, 106, 242);
+
+  text-align: center;
+}
+
+h1 {
+  font-size: 32px;
+  color: #ede7e7;
+}
+
+.gambar-container {
+  background: white;
+  padding: 20px;
+  margin: 20px auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  width: 80%;
+}
+
+.judul-gambar {
+  font-size: 24px;
+  color: #555;
+}
+
+.konten-gambar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+img {
+  max-width: 100%;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.deskripsi {
+  font-size: 18px;
+  color: #777;
+  margin-top: 10px;
+}
+.gambar-container {
+  opacity: 0;
+  transform: translateY(50px);
+  transition: all 0.8s ease-in-out;
+}
+
+.gambar-container.show {
+  opacity: 1;
+  transform: translateY(0);
+}
